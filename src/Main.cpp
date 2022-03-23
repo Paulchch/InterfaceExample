@@ -19,7 +19,16 @@ int main() {
     std::cout<<cd1.play()<<std::endl;
     std::cout<<cd1.stop()<<std::endl;
     std::cout<<cd1.reverse()<<std::endl;
+
+    //Using a pointer of IPlayer that points to a CDPlayerhq object, then accesing the play() method
+    std::cout<<std::endl;
+    IPlayer *player;
+    player = new CDPlayerhq;
+    std::cout << player->play() << std::endl;
+
     return 0;
 }
+
+
 
 
