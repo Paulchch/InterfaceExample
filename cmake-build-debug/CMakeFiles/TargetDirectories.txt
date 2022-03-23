@@ -1,0 +1,6 @@
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_run.dir
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_lib.dir
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
