@@ -12,7 +12,7 @@ public:
     virtual std::string stop() = 0;
     virtual std::string pause() = 0;
     virtual std::string reverse() = 0;
-    virtual ~IPlayer();
+    virtual ~IPlayer() = default;
 };
 
 

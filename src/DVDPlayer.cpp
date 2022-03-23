@@ -19,3 +19,4 @@ std::string DVDPlayer::pause() {
 std::string DVDPlayer::reverse() {
     return "Reversing";
 }
+

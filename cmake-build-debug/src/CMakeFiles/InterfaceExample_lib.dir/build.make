@@ -65,10 +65,24 @@ include src/CMakeFiles/InterfaceExample_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/InterfaceExample_lib.dir/flags.make
 
+src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/flags.make
+src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/includes_CXX.rsp
+src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj: ../src/CDPlayerhq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj"
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterfaceExample_lib.dir\CDPlayerhq.cpp.obj -c C:\Users\pabli\progra2\InterfaceExample\src\CDPlayerhq.cpp
+
+src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.i"
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pabli\progra2\InterfaceExample\src\CDPlayerhq.cpp > CMakeFiles\InterfaceExample_lib.dir\CDPlayerhq.cpp.i
+
+src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.s"
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pabli\progra2\InterfaceExample\src\CDPlayerhq.cpp -o CMakeFiles\InterfaceExample_lib.dir\CDPlayerhq.cpp.s
+
 src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/flags.make
 src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/includes_CXX.rsp
 src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj: ../src/DVDPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj"
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterfaceExample_lib.dir\DVDPlayer.cpp.obj -c C:\Users\pabli\progra2\InterfaceExample\src\DVDPlayer.cpp
 
 src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.i: cmake_force
@@ -82,7 +96,7 @@ src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.s: cmake_force
 src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/flags.make
 src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/includes_CXX.rsp
 src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj: ../src/IPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj"
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterfaceExample_lib.dir\IPlayer.cpp.obj -c C:\Users\pabli\progra2\InterfaceExample\src\IPlayer.cpp
 
 src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.i: cmake_force
@@ -96,7 +110,7 @@ src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.s: cmake_force
 src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/flags.make
 src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj: src/CMakeFiles/InterfaceExample_lib.dir/includes_CXX.rsp
 src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj: ../src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj"
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterfaceExample_lib.dir\Main.cpp.obj -c C:\Users\pabli\progra2\InterfaceExample\src\Main.cpp
 
 src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.i: cmake_force
@@ -109,6 +123,7 @@ src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.s: cmake_force
 
 # Object files for target InterfaceExample_lib
 InterfaceExample_lib_OBJECTS = \
+"CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj" \
 "CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj" \
 "CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj" \
 "CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj"
@@ -116,12 +131,13 @@ InterfaceExample_lib_OBJECTS = \
 # External object files for target InterfaceExample_lib
 InterfaceExample_lib_EXTERNAL_OBJECTS =
 
+src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj
 src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj
 src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj
 src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj
 src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/build.make
 src/libInterfaceExample_lib.a: src/CMakeFiles/InterfaceExample_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libInterfaceExample_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libInterfaceExample_lib.a"
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\InterfaceExample_lib.dir\cmake_clean_target.cmake
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\InterfaceExample_lib.dir\link.txt --verbose=$(VERBOSE)
 

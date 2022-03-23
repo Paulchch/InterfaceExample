@@ -143,6 +143,33 @@ InterfaceExample_lib/fast:
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/build
 .PHONY : InterfaceExample_lib/fast
 
+CDPlayerhq.obj: CDPlayerhq.cpp.obj
+.PHONY : CDPlayerhq.obj
+
+# target to build an object file
+CDPlayerhq.cpp.obj:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/CDPlayerhq.cpp.obj
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj
+.PHONY : CDPlayerhq.cpp.obj
+
+CDPlayerhq.i: CDPlayerhq.cpp.i
+.PHONY : CDPlayerhq.i
+
+# target to preprocess a source file
+CDPlayerhq.cpp.i:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/CDPlayerhq.cpp.i
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.i
+.PHONY : CDPlayerhq.cpp.i
+
+CDPlayerhq.s: CDPlayerhq.cpp.s
+.PHONY : CDPlayerhq.s
+
+# target to generate assembly for a file
+CDPlayerhq.cpp.s:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/CDPlayerhq.cpp.s
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.s
+.PHONY : CDPlayerhq.cpp.s
+
 DVDPlayer.obj: DVDPlayer.cpp.obj
 .PHONY : DVDPlayer.obj
 
@@ -234,6 +261,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... InterfaceExample_lib
 	@echo ... InterfaceExample_run
+	@echo ... CDPlayerhq.obj
+	@echo ... CDPlayerhq.i
+	@echo ... CDPlayerhq.s
 	@echo ... DVDPlayer.obj
 	@echo ... DVDPlayer.i
 	@echo ... DVDPlayer.s

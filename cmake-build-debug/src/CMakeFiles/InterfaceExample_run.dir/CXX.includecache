@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pabli/progra2/InterfaceExample/src/CDPlayerhq.h
+IPlayer.h
+C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.h
+
+C:/Users/pabli/progra2/InterfaceExample/src/DVDPlayer.h
+IPlayer.h
+C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.h
+
+C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.h
+iostream
+-
+
+C:/Users/pabli/progra2/InterfaceExample/src/Main.cpp
+iostream
+-
+DVDPlayer.h
+C:/Users/pabli/progra2/InterfaceExample/src/DVDPlayer.h
+CDPlayerhq.h
+C:/Users/pabli/progra2/InterfaceExample/src/CDPlayerhq.h
+

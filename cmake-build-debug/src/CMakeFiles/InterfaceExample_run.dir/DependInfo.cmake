@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/pabli/progra2/InterfaceExample/src/CDPlayerhq.cpp" "C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_run.dir/CDPlayerhq.cpp.obj"
   "C:/Users/pabli/progra2/InterfaceExample/src/DVDPlayer.cpp" "C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_run.dir/DVDPlayer.cpp.obj"
   "C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.cpp" "C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_run.dir/IPlayer.cpp.obj"
   "C:/Users/pabli/progra2/InterfaceExample/src/Main.cpp" "C:/Users/pabli/progra2/InterfaceExample/cmake-build-debug/src/CMakeFiles/InterfaceExample_run.dir/Main.cpp.obj"

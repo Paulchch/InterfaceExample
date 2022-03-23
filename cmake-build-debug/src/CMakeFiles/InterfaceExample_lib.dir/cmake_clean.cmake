@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/InterfaceExample_lib.dir/CDPlayerhq.cpp.obj"
   "CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj"
   "CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj"
   "CMakeFiles/InterfaceExample_lib.dir/Main.cpp.obj"
