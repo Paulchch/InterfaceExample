@@ -126,6 +126,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/pabli/progra2/InterfaceExample/src/DVDPlayer.cpp">
+			<Option target="InterfaceExample_run"/>
+			<Option target="InterfaceExample_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/InterfaceExample/src/DVDPlayer.h">
+			<Option target="InterfaceExample_run"/>
+			<Option target="InterfaceExample_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.cpp">
+			<Option target="InterfaceExample_run"/>
+			<Option target="InterfaceExample_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/pabli/progra2/InterfaceExample/src/IPlayer.h">
+			<Option target="InterfaceExample_run"/>
+			<Option target="InterfaceExample_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/pabli/progra2/InterfaceExample/src/Main.cpp">
 			<Option target="InterfaceExample_run"/>
 			<Option target="InterfaceExample_lib"/>

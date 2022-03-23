@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/InterfaceExample_run.dir/DVDPlayer.cpp.obj"
+  "CMakeFiles/InterfaceExample_run.dir/IPlayer.cpp.obj"
   "CMakeFiles/InterfaceExample_run.dir/Main.cpp.obj"
   "InterfaceExample_run.exe"
   "InterfaceExample_run.exe.manifest"

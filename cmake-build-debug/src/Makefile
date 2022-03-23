@@ -143,6 +143,60 @@ InterfaceExample_lib/fast:
 	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/build
 .PHONY : InterfaceExample_lib/fast
 
+DVDPlayer.obj: DVDPlayer.cpp.obj
+.PHONY : DVDPlayer.obj
+
+# target to build an object file
+DVDPlayer.cpp.obj:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/DVDPlayer.cpp.obj
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.obj
+.PHONY : DVDPlayer.cpp.obj
+
+DVDPlayer.i: DVDPlayer.cpp.i
+.PHONY : DVDPlayer.i
+
+# target to preprocess a source file
+DVDPlayer.cpp.i:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/DVDPlayer.cpp.i
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.i
+.PHONY : DVDPlayer.cpp.i
+
+DVDPlayer.s: DVDPlayer.cpp.s
+.PHONY : DVDPlayer.s
+
+# target to generate assembly for a file
+DVDPlayer.cpp.s:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/DVDPlayer.cpp.s
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/DVDPlayer.cpp.s
+.PHONY : DVDPlayer.cpp.s
+
+IPlayer.obj: IPlayer.cpp.obj
+.PHONY : IPlayer.obj
+
+# target to build an object file
+IPlayer.cpp.obj:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/IPlayer.cpp.obj
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.obj
+.PHONY : IPlayer.cpp.obj
+
+IPlayer.i: IPlayer.cpp.i
+.PHONY : IPlayer.i
+
+# target to preprocess a source file
+IPlayer.cpp.i:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/IPlayer.cpp.i
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.i
+.PHONY : IPlayer.cpp.i
+
+IPlayer.s: IPlayer.cpp.s
+.PHONY : IPlayer.s
+
+# target to generate assembly for a file
+IPlayer.cpp.s:
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_run.dir\build.make src/CMakeFiles/InterfaceExample_run.dir/IPlayer.cpp.s
+	cd /d C:\Users\pabli\progra2\InterfaceExample\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\InterfaceExample_lib.dir\build.make src/CMakeFiles/InterfaceExample_lib.dir/IPlayer.cpp.s
+.PHONY : IPlayer.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -180,6 +234,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... InterfaceExample_lib
 	@echo ... InterfaceExample_run
+	@echo ... DVDPlayer.obj
+	@echo ... DVDPlayer.i
+	@echo ... DVDPlayer.s
+	@echo ... IPlayer.obj
+	@echo ... IPlayer.i
+	@echo ... IPlayer.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
